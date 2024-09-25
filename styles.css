@@ -1,0 +1,102 @@
+:root {
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey-700: hsl(0, 0%, 20%);
+    --Grey-800: hsl(0, 0%, 12%);
+    --Grey-900: hsl(0, 0%, 8%);
+    --font: Inter
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: var(--font);
+}
+
+body {
+    background-color: black;
+}
+
+main {
+    width: 90%;
+    border-radius: 8px;
+    background-color: var(--Grey-900);
+    margin: 100px  auto; 
+    padding: 20px;
+}
+
+main img {
+    margin: 0 40%;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+main h1 {
+    text-align: center;
+    color: var(--White);
+}
+
+main h4 {
+    color: var(--Green);
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+main p {
+    color: var(--White);
+    font-size: 14px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+main div {
+    width: 95%;
+    border-radius: 10px;
+    margin: auto;
+}
+
+main div button {
+    width: 100%;
+    background-color: var(--Grey-800);
+    border-radius: 6px;
+    height: 40px;
+    padding: auto;
+    text-align: center;
+    margin-top: 20px;
+    border: none;
+    font-size: 14px;
+    color: var(--White);
+}
+
+main div button:hover {
+    background-color: var(--Green);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (min-width: 960px){
+    main {
+        width: 25%;
+        margin:300px auto;
+        padding: 30px;
+    }
+
+    main div {
+        width: 80%;
+    }
+
+    main div button {
+        height: 60px;
+    }
+}
