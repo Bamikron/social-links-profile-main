@@ -21,13 +21,17 @@
 
 body {
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 main {
     width: 90%;
     border-radius: 8px;
     background-color: var(--Grey-900);
-    margin: 100px  auto; 
     padding: 20px;
 }
 
