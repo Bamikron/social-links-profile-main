@@ -87,7 +87,7 @@ main div button:hover {
 }
 
 .attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { color: hsl(228, 45%, 44.1%); }
 
 @media (min-width: 960px){
     main {
